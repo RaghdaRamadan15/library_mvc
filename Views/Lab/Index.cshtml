@@ -1,0 +1,59 @@
+﻿@model List<DayMvctoApi.Models.labwithauthor>
+@{
+    ViewBag.Title = "display";
+}
+@{
+    Layout = "~/Views/Shared/_layoutShow.cshtml";
+}
+
+<a asp-action="create" style="margin-left:60px;" class="btn btn-info">Create new library</a>
+<a asp-action="Index" asp-controller="Book" style="margin-left:300px;" class="btn btn-info">Go back to book</a>
+<a asp-action="Index" asp-controller="AUTHERS" style="margin-left:300px;" class="btn btn-info">Go to Authors</a>
+
+<div class="container mt-4">
+    <div class="row">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            if (i % 2 == 0 && i != 0)
+            {
+                <div class="row mt-4"></div>
+            }
+
+            <div class="col-md-6">
+                <div class="card text-dark bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header text-tertiary">
+                        Name: @Model[i].name
+                        <br />
+                        Address: @Model[i].adress
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Their Authors</h4>
+                        @if (@Model[i].auhtors == null)
+                        {
+                            <p class="card-text">No have Authors yet.</p>
+                        }
+                        else
+                        {
+                            @foreach (string name in @Model[i].auhtors)
+                            {
+                                <p class="card-text">@name</p>
+                            }
+                        }
+                    </div>
+                    <div class="card-footer d-flex justify-content-end">
+                        <div class="card-footer d-flex justify-content-end">
+                            <a asp-controller="Lab" asp-action="edit" asp-route-id="@Model[i].id" class="btn btn-light btn-sm mx-1">Edit</a>
+
+                            <form asp-action="delete" method="post" asp-route-id="@Model[i].id" onsubmit="return confirm('Do you delete this @Model[i].name');">
+
+                                <input type="submit" class="btn btn-danger btn-sm" value="Delete" />
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

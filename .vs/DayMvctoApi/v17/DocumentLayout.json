@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\views\\authers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:views\\authers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\views\\lab\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:views\\lab\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\views\\lab\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:views\\lab\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\views\\authers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:views\\authers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|e:\\iti_full_stack_.net\\api\\daymvctoapi\\controllers\\autherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63B4E6F-223C-4B0E-A4F1-EDB831789DA2}|DayMvctoApi.csproj|solutionrelative:controllers\\autherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T22:53:51.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\AUTHERS\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AUTHERS\\Index.cshtml",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\AUTHERS\\Index.cshtml",
+              "RelativeToolTip": "Views\\AUTHERS\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T22:53:36.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "edit.cshtml",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\AUTHERS\\edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AUTHERS\\edit.cshtml",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\AUTHERS\\edit.cshtml",
+              "RelativeToolTip": "Views\\AUTHERS\\edit.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABsAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T22:42:40.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "edit.cshtml",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Lab\\edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lab\\edit.cshtml",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Lab\\edit.cshtml",
+              "RelativeToolTip": "Views\\Lab\\edit.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T22:42:20.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabController.cs",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Controllers\\LabController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LabController.cs",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Controllers\\LabController.cs",
+              "RelativeToolTip": "Controllers\\LabController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:04:04.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Lab\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lab\\Index.cshtml",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Views\\Lab\\Index.cshtml",
+              "RelativeToolTip": "Views\\Lab\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T22:03:29.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AUTHERSController.cs",
+              "DocumentMoniker": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Controllers\\AUTHERSController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AUTHERSController.cs",
+              "ToolTip": "E:\\ITI_full_stack_.net\\api\\DayMvctoApi\\Controllers\\AUTHERSController.cs",
+              "RelativeToolTip": "Controllers\\AUTHERSController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T00:11:43.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

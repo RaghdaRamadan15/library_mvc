@@ -1,0 +1,50 @@
+﻿@model DayMvctoApi.Models.bookwithAuthor
+@{
+    ViewBag.Title = "Edit";
+}
+@{
+    Layout = "~/Views/Shared/_layoutShow.cshtml";
+}
+
+
+<br />
+
+
+<form asp-action="edit">
+
+    <input type="hidden" asp-for="@Model.id" />
+    <div>
+        <label asp-for="@Model.Title" class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.Title">
+        <span asp-validation-for="@Model.Title" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="@Model.Isbn" class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.Isbn">
+        <span asp-validation-for="@Model.Isbn" class="text-danger"></span>
+
+    </div>
+
+    <div>
+        <label asp-for="@Model.PageCount" class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.PageCount">
+        <span asp-validation-for="@Model.PageCount" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="@Model.Price " class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.Price ">
+        <span asp-validation-for="@Model.Price " class="text-danger"></span>
+
+    </div>
+
+    <div>
+        <label asp-for="@Model.Publisher " class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.Publisher ">
+        <span asp-validation-for="@Model.Publisher " class="text-danger"></span>
+
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-success">Edit</button>
+</form>

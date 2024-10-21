@@ -1,0 +1,26 @@
+﻿@model DayMvctoApi.Models.Author
+@{
+    ViewBag.Title = "display";
+}
+@{
+    Layout = "~/Views/Shared/_layoutShow.cshtml";
+}
+
+
+      <div>
+        <h1 class="text-body-tertiary">welcom to create new Author</h1>
+      </div>
+    <form asp-action="create" method="post">
+        <input asp-for="@Model.Name" />
+        <br/>
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+        <br />
+        <br />
+        <button type="submit" class="btn btn-success">Success</button>
+    </form>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    

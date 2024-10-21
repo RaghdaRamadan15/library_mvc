@@ -1,0 +1,55 @@
+﻿@model List<DayMvctoApi.Models.bookwithAuthor>
+@{ViewBag.Title="display";}
+@{
+    Layout = "~/Views/Shared/_layoutShow.cshtml";
+}
+
+
+@Html.Partial("~/Views/Shared/slider.cshtml")
+<br />
+<br />
+<br />
+<a asp-action="create" style="margin-left:60px;" class="btn btn-info">Create new book</a>
+<a asp-action="Index" asp-controller="AUTHERS" style="margin-left:300px;" class="btn btn-info">Go back to Author</a>
+<a asp-action="Index" asp-controller="Lab" style="margin-left:300px;" class="btn btn-info">Go to library</a>
+
+<br />
+<br />
+<br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+           
+            <th scope="col">title</th>
+            <th scope="col">isbn</th>
+            <th scope="col">pageCount</th>
+            <th scope="col">price</th>
+            <th scope="col">publisher</th>
+            <th scope="col">authersName</th>
+            <th scope="col">edit</th>
+            <th scope="col">delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model){
+        <tr class="table-active">
+            
+                <td>@item.Title</td>
+                <td>@item.Isbn</td>
+                <td>@item.PageCount</td>
+                <td>@item.Price</td>
+                <td>@item.Publisher</td>
+                <td>@item.AuthersName</td>
+                <td>
+                    <a asp-controller="Book" asp-action="edit" asp-route-id="@item.id" class="btn btn-light btn-sm mx-1">Edit</a>
+                </td>
+                <td>
+                    <form asp-action="delelet" method="post" asp-route-id="@item.id" onsubmit="return confirm('Do you delete this @item.Title');">
+                        
+                    <input type="submit" class="btn btn-danger btn-sm" value="Delete" />
+                </form>
+                </td>
+        </tr>
+        }
+        </tbody>
+        </table>

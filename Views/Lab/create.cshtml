@@ -1,0 +1,38 @@
+﻿@model DayMvctoApi.Models.labwithauthor
+@{
+    ViewBag.Title = "Add";
+}
+@{
+    Layout = "~/Views/Shared/_layoutShow.cshtml";
+}
+
+
+<br />
+
+<form asp-action="create">
+    <div>
+        <label asp-for="@Model.name" class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.name">
+        <span asp-validation-for="@Model.name" class="text-danger"></span>
+
+    </div>
+    <div>
+        <label asp-for="@Model.adress" class="form-label mt-4"></label>
+        <input class="form-control" asp-for="@Model.adress">
+        <span asp-validation-for="@Model.adress" class="text-danger"></span>
+
+    </div>
+
+   
+
+    
+    <div>
+        <label asp-for="@Model.Author_id " class="form-label mt-4"></label>
+        @Html.ListBoxFor(model => model.Author_id, ViewData["AuthorList"] as List<SelectListItem>, new { @class = "form-control" })
+
+        <span asp-validation-for="@Model.Author_id " class="text-danger"></span>
+        <br />
+
+    </div>
+    <button type="submit" class="btn btn-success">Success</button>
+</form>
